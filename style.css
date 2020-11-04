@@ -1,0 +1,137 @@
+body {
+color: #575F7D;
+font-family: 'Lora', serif;
+font-weight: lighter;
+background-image:  url(images/lol.jpg);
+background-size:cover
+}
+
+h1.underpicture {
+  color: #585F7D;
+  font-family: 'Roboto', sans-serif;
+  font-weight:100;
+  font-size: 17px;
+  font-style:bold;
+}
+
+h2 {
+  color: #878785;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif;
+  font-weight:100;
+  font-size: 17px;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+a.btn-blue {
+   background-color: #6B72E1;
+   color: white;
+   padding: 15px 20px;
+   border-adius: 5px;
+   box-shadow: 2px 2px #FFFFFF
+ }
+a.btn-blue:hover {
+background-color: black;
+}
+
+.card {
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center
+}
+
+.transparent-card {
+  background: rgb(0,0,0);
+  background: rgba(255,255,255,0.4);
+}
+
+.white-card {
+  background-color: white;
+}
+
+.container {
+  width: 800px;
+  margin: 30px auto;
+}
+
+
+.social-icon {
+  color: #6B72E1;
+  padding-right: 20px;
+}
+
+.follow-me:hover {
+  color: black;
+}
+
+i {
+  color: #6B72E1;
+  font-size: 30px;
+}
+
+.profile_picture {
+width: 140px;
+border-radius: 49%;
+border-color: black;
+border:1px solid;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+    margin: 15px;
+}
+
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+    display: -webkit-inline-box;
+}
+
+.fab {
+  margin:5px;
+}
+
+#twitter {
+  width: 600px;
+  height: 500px;
+  overflow: scroll;
+}
+
+ .resume {
+
+width:400px;
+ }
+
+
+  @media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
